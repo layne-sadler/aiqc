@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta property="og:title" content="Overview" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://aiqc.readthedocs.io/index.html" />
+  <meta property="og:site_name" content="AIQC" />
+  <meta property="og:description" content="functionality banner, AIQC is an open source Python framework for reproducible deep learning.- Its mission is to empower scientific researchers by:(1) Reducing the programming and data science know..." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/aiqc/aiqc/main/docs/images/aiqc_logo_banner_controlroom.png" />
+  <meta property="og:image:alt" content="Artificial Intelligence Quality Control" />
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/aiqc/aiqc/main/docs/images/aiqc_logo_banner_controlroom.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Overview &mdash; AIQC</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Mission" href="mission.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#">
+          
+
+          
+            
+            <img src="_static/aiqc_logo_wide_white_docs.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">About</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mission.html">Mission</a></li>
+<li class="toctree-l1"><a class="reference internal" href="links.html">Links</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Start</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/installation.html">Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/example_datasets.html">Data</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/keras_binary_classification.html">Keras: Classify Binary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/keras_multi-label_classification.html">Keras: Classify Multi-Label</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/keras_regression.html">Keras: Regression</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/pytorch.html">PyTorch (coming soon)</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/api_high_level.html">High-Level API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/api_low_level.html">Low-Level API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/visualization.html">Visualization &amp; Metrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compatibility.html">Compatibility</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">AIQC</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<a class="reference internal image-reference" href="_images/aiqc_logo_banner_narrow.png"><img alt="functionality banner" class="align-center" src="_images/aiqc_logo_banner_narrow.png" style="width: 100%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><strong>AIQC is an open source Python framework for reproducible deep learning.</strong></p>
+<ul>
+<li><p>Its mission is to <em>empower scientific researchers</em> by: <strong>(1)</strong> Reducing the programming and data science know-how required to integrate deep learning into their research. <strong>(2)</strong> Automatically recording the entire experiment workflows. <strong>(3)</strong> Removing the need for an expensive cloud backend.</p></li>
+<li><p>It is a Python package that provides <em>best-practice guardrails</em> for deep learning in the form of an object-oriented API (e.g. <cite>Featureset</cite>, <cite>Foldset</cite>, <cite>Job</cite>). This framework not only: <strong>(1)</strong> accelerates preprocessing and batch model tuning/ scoring but also <strong>(2)</strong> prevents data leakage and evaluation bias.</p></li>
+</ul>
+</li>
+</ul>
+<a class="reference internal image-reference" href="_images/functionality_banner.png"><img alt="functionality banner" class="align-center" src="_images/functionality_banner.png" style="width: 100%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="_images/pydata_banner.png"><img alt="pydata banner" class="align-center" src="_images/pydata_banner.png" style="width: 100%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="i-rapidly-prepare-folded-data-for-analysis-without-leakage">
+<h2>I. Rapidly prepare folded data for analysis without leakage.<a class="headerlink" href="#i-rapidly-prepare-folded-data-for-analysis-without-leakage" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/pipeline_25sec_compress.gif"><img alt="pipeline.gif" src="_images/pipeline_25sec_compress.gif" style="width: 100%;" /></a>
+<ul class="simple">
+<li><p>Make datasets from files (csv, parquet), structures (pandas, numpy), &amp; images (pillow).</p></li>
+<li><p>Designate columns by name as either Features or Labels.</p></li>
+<li><p>Easily split, fold, &amp; stratify samples (<cite>size_validation=0.12</cite>, <cite>fold_count=5</cite>).</p></li>
+<li><p>Apply encoders by dtype (<cite>float64</cite>) without leaking test/ validation data.</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="ii-train-many-variations-of-an-algorithm-in-a-single-batch">
+<h2>II. Train many variations of an algorithm in a single batch.<a class="headerlink" href="#ii-train-many-variations-of-an-algorithm-in-a-single-batch" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/hyperparam_25sec_compress.gif"><img alt="hyperparameters.gif" src="_images/hyperparam_25sec_compress.gif" style="width: 100%;" /></a>
+<ul class="simple">
+<li><p>Queue a batch a many training jobs; one job per hyperparameter combination.</p></li>
+<li><p>Automatically passes param combinations into model functions as <cite>**kwargs</cite>.</p></li>
+<li><p>Tweak the model topology as a param (<cite>params[‘extra_conv3D_layer’]=True</cite>).</p></li>
+<li><p>Repeat a job to to give it a chance to perform well (<cite>repeat_count=3</cite>).</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="iii-evaluate-algorithm-performance-with-metrics-charts">
+<h2>III. Evaluate algorithm performance with metrics &amp; charts.<a class="headerlink" href="#iii-evaluate-algorithm-performance-with-metrics-charts" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/plots_25sec_compress.gif"><img alt="plots.gif" src="_images/plots_25sec_compress.gif" style="width: 100%;" /></a>
+<ul class="simple">
+<li><p>Automated performance metrics &amp; visualization for every split/ fold.</p></li>
+<li><p>Define multi-metric success criteria for early stopping.</p></li>
+<li><p>Captures per-epoch history metrics for learning curves.</p></li>
+<li><p>Aggregate metrics for sets of cross-folded jobs.</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="iv-effortlessly-track-reproduce-prove-experiments">
+<h2>IV. Effortlessly track, reproduce, &amp; prove experiments.<a class="headerlink" href="#iv-effortlessly-track-reproduce-prove-experiments" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Everything is saved. No more writing down parameters or screenshotting charts!</span>
+<span class="n">batch</span><span class="o">.</span><span class="n">jobs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">hyperparamcombo</span><span class="o">.</span><span class="n">hyperparameters</span>
+<span class="p">{</span>
+    <span class="s1">&#39;include_nth_layer&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s1">&#39;initialization&#39;</span><span class="p">:</span> <span class="s1">&#39;he_normal&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;batch_size&#39;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+    <span class="s1">&#39;dense_neurons&#39;</span><span class="p">:</span> <span class="mi">64</span>
+<span class="p">}</span>
+
+<span class="c1"># Recorded end-to-end:</span>
+<span class="n">batch</span><span class="o">.</span><span class="n">jobs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">results</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">get_model</span><span class="p">()</span> <span class="c1"># trained model</span>
+<span class="n">batch</span><span class="o">.</span><span class="n">algorithm</span><span class="o">.</span><span class="n">function_model_build</span> <span class="c1"># model definition</span>
+<span class="n">batch</span><span class="o">.</span><span class="n">jobs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">results</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">predictions</span><span class="p">[</span><span class="s1">&#39;fold_validation&#39;</span><span class="p">]</span> <span class="c1"># predictions</span>
+<span class="n">batch</span><span class="o">.</span><span class="n">jobs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">fold</span><span class="o">.</span><span class="n">samples</span><span class="p">[</span><span class="s1">&#39;fold_validation&#39;</span><span class="p">][</span><span class="s1">&#39;features&#39;</span><span class="p">]</span> <span class="c1"># sample indeces by split</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Automatically records experiments in a local sqlite database file.</p></li>
+<li><p>No infrastructure hassle; <cite>aiqc.setup()</cite> creates the database for you.</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="v-easy-to-install-with-tutorials-to-guide-you">
+<h2>V. Easy to <a class="reference internal" href="notebooks/installation.html"><span class="std std-ref">install</span></a>. With <a class="reference internal" href="notebooks/api_high_level.html"><span class="std std-ref">tutorials</span></a> to guide you.<a class="headerlink" href="#v-easy-to-install-with-tutorials-to-guide-you" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># pip install --upgrade aiqc</span>
+
+<span class="kn">import</span> <span class="nn">aiqc</span>
+<span class="kn">from</span> <span class="nn">aiqc</span> <span class="kn">import</span> <span class="n">datum</span> <span class="c1"># data for tutorials.</span>
+
+<span class="n">aiqc</span><span class="o">.</span><span class="n">setup</span><span class="p">()</span> <span class="c1"># create &amp; connect to the database.</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Example datasets built into package. Example image datasets in github repo.</p></li>
+<li><p>Use any IDE (jupyter, rstudio, vscode, pycharm, spyder) &amp; OS (win, mac, lin).</p></li>
+<li><p>Easy to learn with 2 step tutorials: make a <cite>Pipeline</cite> to feed an <cite>Experiment</cite>.</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="mission.html" class="btn btn-neutral float-right" title="Mission" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
